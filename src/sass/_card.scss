@@ -129,26 +129,15 @@ body {
 }
 
 .container-card--third:hover {
-  transform: translateY(-70px);
+  transform: translateY(-80px);
   transition-timing-function: linear;
   transition: all 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 }
 
 .container-card--fourth:hover {
-  transform: translateY(-90px);
+  transform: translateY(-100px);
   transition-timing-function: linear;
   transition: all 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
-}
-
-.container-card-icon {
-  background-color: #00000099;
-  filter: blur(1px);
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-  margin-top: 10px;
-  margin-left: 85%;
-  position: absolute;
 }
 
 .light {
@@ -161,4 +150,14 @@ body {
   margin-left: 25%;
   position: absolute;
   z-index: 1;
+}
+
+.container-card-icon {
+  background-color: #00000099;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 85%;
+  position: absolute;
 }
