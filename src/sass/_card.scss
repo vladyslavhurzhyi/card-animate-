@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: #1f1f47;
 }
 .card-list {
   position: relative;
@@ -149,4 +149,16 @@ body {
   margin-top: 10px;
   margin-left: 85%;
   position: absolute;
+}
+
+.light {
+  background-color: rgb(255, 255, 255);
+  filter: blur(50px);
+  border-radius: 50px;
+  width: 200px;
+  height: 30px;
+  margin-top: -40%;
+  margin-left: 25%;
+  position: absolute;
+  z-index: 1;
 }
